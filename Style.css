@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+
+    color: #000000;
+
+    margin: 0;
+
+    padding:0;
+
+    background-color: #ffffff;
+
+}
+
+
+
+header{
+
+    display:flex;
+
+    background-color: #FFF0E8;
+
+    margin: 0; 
+
+    padding: 0;
+
+
+
+}
+
+li,a,button{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-weight: 100;
+
+    font-size: small;
+
+    color: #000000;
+
+    text-decoration: none;
+
+}
+
+header img{
+    
+    align-items: flex-start;
+
+}
+
+
+
+.navbar  {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 20px 2%;
+
+    margin: 0%;
+
+    gap: 20px;
+
+    height: 20px;
+
+}
+
+.navbar img{
+display: flex;
+
+}
+
+.navbar .links{
+ display: flex;
+ color: #000000;
+ list-style-type: none;
+ gap: 50px;
+
+} 
+
+
+
+li a:hover{
+
+    color: #EB662B;
+
+}
+
+button{
+
+border:none;
+background-color: #EB662B;
+border-radius: 10px;
+height: 30px;
+width: 100px;
+color: #ffffff;
+
+}
+
+.word-color{
+color: #EB662B;
+
+}
+
+#h-one{
+position: relative;
+bottom: 50%;
+right: 25%;
+font-size: 50px;
+margin-bottom: 0%;
+direction: ltr;
+
+}
+
+.img{
+position:relative;
+bottom: 50%;
+left:25%;
+text-align: end;
+}
+
+#p1{
+ position: relative;
+ bottom: 50%;
+ right:24% ;
+ direction: ltr;
+ padding: 0%;
+ margin: 0%;
+}
+
+
+.b2 button{
+
+ position: relative;
+ right: 25%;
+top: 15px;
+}
+.img2{
+    width: 30%;
+    margin: 0% 5% 5% 0%;
+
+}
+
+.body-1{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    margin: 0% 5% 5% 15%;
+    
+}
+.Pourquoi{
+    color: #000000;
+    position:relative;
+    left: 5%;
+    font-weight:900px;
+    width: 90%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.icon{
+    font-style: italic;
+    font-weight: 100px;
+  
+}
+.footer{
+
+    background-color: #FFF0E8;
+    margin:0%;
+}
+
+
+.footer.block{
+    
+list-style: none;
+position: relative;
+left: 20%;
+
+
+}
+
+
+
+
+
+
+
+
